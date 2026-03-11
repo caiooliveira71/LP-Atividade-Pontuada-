@@ -17,4 +17,4 @@ if valor_total > 15 or total >= 10:
 else:
     print(f"quantidade de morangos: {morango}")
     print(f"quantidade de maças: {maças}")
-    print(f"Voçe ira pagar com desconto: {valor_total}")
+    print(f"Voçe ira pagar: {valor_total}")

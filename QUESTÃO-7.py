@@ -8,17 +8,15 @@ print(f"Total: {total}")
 
 if quantidade <= 5:
     print("desconto de 2%")
-    desconto = 2/100
-    total_pagar = total - desconto
-    print(f"total a pagar: {total_pagar}")
+    desconto = total - total * 2/100
+    print(f"total a pagar: {desconto}")
 if quantidade > 5 and quantidade <= 10:
     print("desconto de 3%")
-    desconto = 3/100
-    total_pagar = total - desconto
-    print(f"total a pagar: {total_pagar}")
+    desconto = total - total - 3/100
+    print(f"total a pagar: {desconto}")
 if quantidade > 10:
     print("desconto de 5%")
-    desconto = 5/100
-    total_pagar = total - desconto
-    print(f"total a pagar: {total_pagar}")
+    desconto = total - total * 5/100
+    print(f"total a pagar: {desconto}")
+
 
